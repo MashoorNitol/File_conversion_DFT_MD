@@ -11,9 +11,6 @@ import glob
 import os
 
 
-# Rest of the code
-
-
 class ContcarParser:
     def __init__(self, filename):
         self.filename = filename
