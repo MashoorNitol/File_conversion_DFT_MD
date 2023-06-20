@@ -59,7 +59,7 @@ class OszicarReader:
     def read(self):
         with open(self.filename, 'r') as f:
             lines = f.readlines()
-        total_energy = float(lines[-1].split()[2])
+        total_energy = float(lines[-1].split()[4])
         return total_energy
     
 
